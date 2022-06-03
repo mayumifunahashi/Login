@@ -1,0 +1,167 @@
+:root {
+    --salmao : rgb(254, 221, 198);
+    --laranja : rgb(242, 80, 25);
+    --preto : rgb(42, 30, 23);
+    --branco: #FFFFFF
+}
+
+body{
+    background-color: var(--salmao);
+    background-image: url(Imagens/fundo.svg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+main {
+    display: flex;
+}
+
+
+#container-login {
+    width: 50vw;
+    height: 100vh;
+    
+
+}
+
+#caixa {
+background: rgba(254, 211, 198, 0.15);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(254, 211, 198, 0.3);
+
+width: 30rem;
+height: 40rem;
+padding:6rem 5rem 6rem 6rem;
+position: relative;
+top: 8rem;
+left: 8rem;
+
+
+}
+
+#imagem {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: var(--laranja);
+    font-weight: bold;
+    font-size: 1.8rem;
+    
+
+}
+
+h1{
+    color: var(--preto);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 1.8rem;
+}
+
+form {
+    margin-top: 2.5rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    color: var(--preto);
+    font-size: 1.4rem;
+}
+
+input {
+    width: 24rem;
+    height: 2.7rem;
+    border-radius: 5px;
+    
+}
+
+#aberto {
+    display: none;
+    cursor: pointer;
+    
+}
+
+#fechado {
+    cursor: pointer;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+#recuperar-senha {
+    text-decoration: none;
+    color: var(--preto);
+    
+}
+
+#inscrever-se {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    background-color: var(--laranja);
+    width: 24rem;
+    height: 3rem;
+    border-radius: 5px;
+    
+}
+
+#inscrever-se-link{
+  text-decoration: none;
+    color: var(--branco)
+}
+
+
+#checkbox {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 1rem 0 1rem 0;
+    
+}
+
+#container-continuar {
+    display: flex;
+    justify-content: center;
+}
+
+#container-continuar p {
+   position: relative;
+   bottom: 1rem;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+li {
+    
+    background-color: var(--branco);
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin: 2rem 0 2rem 0;
+
+}
+
+li img {
+    position: relative;
+    top:0.75rem;
+    left: 1.7rem;
+}
+
+#registrar {
+    
+}
