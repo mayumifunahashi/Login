@@ -1,0 +1,463 @@
+/*Mobile* (até 767px)*/
+
+@media screen and (max-width:767px) {
+    body {
+        background-image: none;
+    }
+
+    main{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #container-login {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #caixa {
+        padding:0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    #imagem {
+        display: none;
+    }
+
+    #imagem img {
+        display: none;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem; 
+    }
+
+    input, #inscrever-se{
+        width: 14rem;
+        height: 2rem;
+    }
+
+    #checkbox{
+        width: 1rem;
+        height: 1rem;
+        margin:1rem;
+    }
+
+    #container-continuar {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    #redes-sociais {
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+/*Tablet* (767px a 1023px/ */
+@media screen and (min-width:768px) and (max-width:1023px){
+    
+
+    main{
+        width: 100vw;
+        display: flex;
+        
+    }
+    #caixa {
+        padding:;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        margin:2rem 0 0 2rem;
+    }
+
+    #imagem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #imagem img{
+        height: 25rem;
+        width: 25rem;
+        margin-left: 3rem;
+    }
+ 
+}
+
+@media screen and (min-width:1200px) and (max-width:2199px) {
+    #caixa {
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        margin:2rem 0 0 2rem;
+    }
+
+    #imagem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #imagem img{
+        margin-left: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    
+    input {
+        width: 25rem;
+        height: 2.7rem;
+    }
+    label {
+        font-size: 1.5rem;
+    }
+
+    #checkbox {
+        width: 2rem;
+        height: 2rem;
+        
+    }
+
+    #recuperar-senha {
+        margin-top: 2rem;
+        font-size: 1.4rem;
+
+    }
+
+    #inscrever-se {
+        width: 25rem;
+        height: 2.8rem;
+    }
+
+    #inscrever-se a {
+        font-size: 1.8rem;
+    }
+
+    #container-continuar p {
+        font-size: 1.4rem;
+    }
+
+    li img {
+        height: 3rem;
+        width: 3rem;
+        left: 2.7rem;
+    }
+
+    li {
+        width: 8rem;
+        height: 5rem;
+    }
+
+    #registrar p{
+        font-size: 1.4rem;
+    }
+
+    
+    
+
+    
+}
+
+@media screen and (min-width:2200px) and (max-width:2899px) {
+    #caixa {
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        margin:2rem 0 0 2rem;
+    }
+
+    #imagem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #imagem img{
+        margin-left: 3rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    input {
+        width: 35rem;
+        height: 4rem;
+        font-size: 2rem;
+    }
+    label {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #checkbox {
+        width: 3rem;
+        height: 3rem;
+        margin: 2rem 0 2rem 0;
+        font-size: 2rem;
+        
+        
+    }
+
+    #recuperar-senha {
+        margin-top: 8rem;
+        font-size: 2rem;
+
+    }
+
+    #inscrever-se {
+        width: 35rem;
+        height: 4rem;
+        margin: 2rem 0 2rem 0;
+    }
+
+    #inscrever-se a {
+        font-size: 2.8rem;
+    }
+
+    #container-continuar p {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    li img {
+        height: 5rem;
+        width: 5rem;
+        left: 3.8rem;
+    }
+
+    li {
+        width: 12rem;
+        height: 8rem;
+    }
+
+    #registrar p{
+        font-size: 2.5rem;
+        margin-top: 3rem;
+    }
+
+    #mostrar {
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    
+}
+
+@media screen and (min-width:2900px) and (max-width:3799px){
+    #caixa {
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        margin:2rem 0 0 2rem;
+    }
+
+    #imagem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #imagem img{
+        margin-left: 3rem;
+    }
+    h2{
+        font-size: 5rem;
+    }
+    h1 {
+        font-size: 6rem;
+        text-align: center;
+    }
+    
+    input {
+        width: 50rem;
+        height: 6rem;
+        font-size: 2rem;
+    }
+    label {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #checkbox {
+        width: 4rem;
+        height: 4rem;
+        margin: 2rem 0 2rem 0;   
+    }
+
+    #recuperar-senha {
+        margin-top: 8rem;
+        font-size: 3rem;
+
+    }
+
+    #inscrever-se {
+        width: 50rem;
+        height: 6rem;
+        margin: 2rem 0 2rem 0;
+    }
+
+    #inscrever-se a {
+        font-size: 4rem;
+    }
+
+    #container-continuar p {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    li img {
+        height: 7rem;
+        width: 7rem;
+        left: 5.9rem;
+    }
+
+    li {
+        width: 18rem;
+        height: 10rem;
+    }
+
+    #registrar p{
+        font-size: 3.2rem;
+        margin-top: 3rem;
+    }
+
+    #mostrar {
+        font-size: 3rem;
+        margin-left: 1rem;
+    }
+
+}
+
+@media screen and (min-width:3800px) {
+    #caixa {
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        margin:2rem 0 0 2rem;
+    }
+
+    #imagem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #imagem img{
+        margin-left: 3rem;
+    }
+    h2{
+        font-size: 7rem;
+    }
+    h1 {
+        font-size: 8rem;
+        text-align: center;
+    }
+    
+    input {
+        width: 60rem;
+        height: 8rem;
+        font-size: 3rem;
+    }
+    label {
+        font-size: 4.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #checkbox {
+        width: 5rem;
+        height: 5rem;
+        margin: 3rem 0 3rem 0;   
+    }
+
+    #recuperar-senha {
+        margin-top: 10rem;
+        font-size: 4rem;
+
+    }
+
+    #inscrever-se {
+        width: 60rem;
+        height: 8rem;
+        margin:3rem 0 3rem 0;
+    }
+
+    #inscrever-se a {
+        font-size: 5.3rem;
+    }
+
+    #container-continuar p {
+        font-size: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    li img {
+        height: 8rem;
+        width: 8rem;
+        left: 7.3rem;
+    }
+
+    li {
+        width: 22rem;
+        height: 11rem;
+    }
+
+    #registrar p{
+        font-size: 4.5rem;
+        margin-top: 4rem;
+    }
+
+    #mostrar {
+        font-size: 4rem;
+        margin-left: 1.2rem;
+    }
+
+}

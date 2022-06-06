@@ -8,6 +8,7 @@
     <title>Tela Login</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
 </head>
 
 <body>
@@ -16,48 +17,52 @@
             <div id="caixa">
 
                 <div>
-                    <h2>Your logo</h2>
+                    <h2>Tela de Login</h2>
                     <h1>Login</h1>
                 </div>
-                <div>
+                <div id="formulario">
                     <form action="#">
 
                         <label for="email">Email</label>
-                        <input type="text" id="email" placeholder="username@gmail.com">
-                        <label for="senha">Email</label>
-                        <input type="password" id="senha" placeholder="password">
+                        <input type="text" id="email" placeholder="seunome@gmail.com">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" placeholder="Senha">
                         <div>
-                            <input type="checkbox" onclick="mostrarOcultarSenha()" id="checkbox">Mostar/ocultar Senha
+                            <input type="checkbox" onclick="mostrarOcultarSenha()" id="checkbox"  ><a id="mostrar">Mostar/ocultar Senha</a> 
                         </div>
 
                         <nav>
-                            <a href="#" id="recuperar-senha">Forgot Password? </a>
+                            <a href="#" id="recuperar-senha">Esqueceu sua senha? </a>
                         </nav>
 
                 </div>
                 <div>
                     <nav id="inscrever-se">
-                        <a href="#" id="inscrever-se-link">Sing in</a>
+                        <a href="#" id="inscrever-se-link">Entre</a>
                     </nav>
                 </div>
                 </form>
 
                 <div id="container-continuar">
 
-                    <p>Or continue with</p>
+                    <p>Ou continue com:</p>
 
                 </div>
 
                 <div id="redes-sociais">
                     <ul>
-                    <li><img src="Imagens/google.svg" alt="Ícone Google"></li>
-                    <li><img src="Imagens/github.svg" alt="Ícone github"></li>
-                    <li><img src="Imagens/facebook.svg" alt="Ícone facebook"></li>
-                </ul>
+                        <li><img src="Imagens/google.svg" alt="Ícone Google"></li>
+                        <li><img src="Imagens/github.svg" alt="Ícone github"></li>
+                        <li><img src="Imagens/facebook.svg" alt="Ícone facebook"></li>
+                    </ul>
                 </div>
-                
 
-                <p id="registrar">Don’t have an account yet?<b>Register for free</b></p>
+                <div id="registrar">
+                    <p id="registrar-p">Não possui conta? Se inscreva de graça!</b></p>
+                </div>
+
+
+
 
 
 

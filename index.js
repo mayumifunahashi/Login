@@ -1,6 +1,6 @@
 
 function mostrarOcultarSenha() {
-    const senha = document.getElementById('senha');
+    const senha = document.getElementById('checkbox');
 
     if (senha == 'password') {
         senha.type ='text';

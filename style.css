@@ -22,8 +22,6 @@ main {
 #container-login {
     width: 50vw;
     height: 100vh;
-    
-
 }
 
 #caixa {
@@ -34,69 +32,68 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(254, 211, 198, 0.3);
 
-width: 30rem;
-height: 40rem;
-padding:6rem 5rem 6rem 6rem;
+width: 20rem;
+height: 28rem;
+padding:3rem 3rem 3rem 3rem;
 position: relative;
-top: 8rem;
-left: 8rem;
-
-
+top: 3rem;
+left: 6rem;
 }
 
-#imagem {
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
 
 h2 {
     color: var(--laranja);
     font-weight: bold;
-    font-size: 1.8rem;
-    
-
+    font-size: 1rem;
 }
 
 h1{
     color: var(--preto);
     font-weight: bold;
-    font-size: 3rem;
-    margin-top: 1.8rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 form {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
 }
 
 label {
     display: flex;
     flex-direction: column;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
     color: var(--preto);
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 input {
-    width: 24rem;
-    height: 2.7rem;
+    width: 15rem;
+    height: 1.5rem;
     border-radius: 5px;
+    border-style: dashed;
     
 }
 
-#aberto {
-    display: none;
-    cursor: pointer;
+#checkbox {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 1rem 0.5rem 1rem 0;
     
 }
 
-#fechado {
-    cursor: pointer;
+inscrever-se nav {
+    margin-top: 1rem;
 }
 
-nav {
-    margin-top: 0.5rem;
+#registrar{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#registrar-p {
+    margin-top: 1rem;
 }
 
 #recuperar-senha {
@@ -108,60 +105,66 @@ nav {
 #inscrever-se {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     background-color: var(--laranja);
-    width: 24rem;
-    height: 3rem;
+    width: 15rem;
+    height: 2rem;
     border-radius: 5px;
     
 }
 
 #inscrever-se-link{
   text-decoration: none;
-    color: var(--branco)
-}
-
-
-#checkbox {
-    width: 1.5rem;
-    height: 1.5rem;
-    margin: 1rem 0 1rem 0;
-    
+    color: var(--branco);
+    text-align: center;
 }
 
 #container-continuar {
     display: flex;
-    justify-content: center;
+    
 }
 
 #container-continuar p {
-   position: relative;
-   bottom: 1rem;
+   color: var(--preto);
+  margin: 1rem 0 1rem 0;
 
 }
+
 
 ul {
     display: flex;
-    justify-content: space-evenly;
-    
 }
 
 li {
-    
     background-color: var(--branco);
-    width: 5rem;
+    width: 3rem;
     height: 3rem;
     border-radius: 10px;
-    margin: 2rem 0 2rem 0;
-
+    margin-left: 1.5rem;
+    
 }
 
 li img {
     position: relative;
     top:0.75rem;
-    left: 1.7rem;
+    left: 0.8rem;
 }
 
 #registrar {
-    
+    cursor: pointer;
+    color: var(--preto);   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+#imagem {
+    display: flex;
+    justify-content: center;
+}
+
+#imagem img {
+    width: 50vw;
+    height: 100vh;
+}
+
