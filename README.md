@@ -6,19 +6,32 @@
 <h2 align="center"> :clipboard: Descrição do projeto </h2>
 <p>Projeto desenvolvido com HTML,CSS e JavaScrip. Com este projeto pude praticar novos conhecimentos como: utilização de variáveis no CSS, responsividade e no JavaScript a aplicação mostrar/ocultar senha.<p>
   
-   ![image](https://user-images.githubusercontent.com/100293266/172214927-e7253fb8-2e25-4788-97b7-07ed25d18487.png)
+   ![tela principal](https://user-images.githubusercontent.com/100293266/172231645-bf3f6c3e-7077-4a2d-80dd-6742fbb46cbf.png)
+
 
   
  <h2 align = "center" >:hammer: Funcionalidades do projeto</h2>
 
-- `Funcionalidade 1`: Iniciar
-- <p> Ao clicar o contador começará a funcionar, caso ele seja pausado, ele iniciará do número em que parou.<p>
+- `Funcionalidade 1`: Input esconder
+ <p> No input é possível digitar a senha sem mostrá-la.</p>
+  
+  ![tela-password](https://user-images.githubusercontent.com/100293266/172232326-f7d1be71-1c36-43e8-ac1d-968fa8bc4634.png)
+
   <br>
- - `Funcionalidade 2`: Pausar
-- <p> Após a contagem do cronômetro ser inicada é possível pausar a operação.<p>
+  
+ - `Funcionalidade 2`: Input mostrar
+ <p> clicando em "mostrar/ocultar senha", é possível escolher se deseja ou não ver a senha digitada.</p>
+  
+  ![tela password-mostrar](https://user-images.githubusercontent.com/100293266/172232376-f8ec29fb-d148-4c62-98bb-0a6e3ab55f4a.png)
+
   <br>
-- `Funcionalidade 3`: Parar
-  <p>Com este botão é possível parar a operação, ao executá-lo o contador voltará a ser 00:00:00<p>
+  
+- `Funcionalidade 3`: Versão mobile
+  <p>Para dispositivos com tela menor, algumas modificações estéticas foram feitas para uma melhor visualização da página, ainda é possível mostrar e ocultar a senha.,<p/>
+  
+  <br>
+  
+     ![mobile](https://user-images.githubusercontent.com/100293266/172232430-fb200a59-6ecc-4d9e-8e27-d04a6596b95f.png)
     
      <h2 align = "center" >:raising_hand: Autora :</h2>
      <br>
