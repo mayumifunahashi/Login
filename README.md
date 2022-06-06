@@ -19,6 +19,9 @@
   <br>
 - `Funcionalidade 3`: Parar
   <p>Com este botão é possível parar a operação, ao executá-lo o contador voltará a ser 00:00:00<p>
+    
+     <h2 align = "center" >:raising_hand: Autora :</h2>
+     <br>
 
 [<img src="https://avatars.githubusercontent.com/u/100293266?v=4" width=115><br><sub>Jéssica Mayumi Funahashi</sub>](https://github.com/mayumifunahashi) 
 
