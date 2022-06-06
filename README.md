@@ -6,6 +6,8 @@
 <h2 align="center"> :clipboard: Descrição do projeto </h2>
 <p>Projeto desenvolvido com HTML,CSS e JavaScrip. Com este projeto pude praticar novos conhecimentos como: utilização de variáveis no CSS, responsividade e no JavaScript a aplicação mostrar/ocultar senha.<p>
   
+  <h3>:open_file_folder:<i> Dê uma olhadinha no projeto por este link : https://mayumifunahashi.github.io/Login/</i></h3>
+  
    ![tela principal](https://user-images.githubusercontent.com/100293266/172231645-bf3f6c3e-7077-4a2d-80dd-6742fbb46cbf.png)
 
 
