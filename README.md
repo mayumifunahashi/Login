@@ -1,10 +1,13 @@
-<h1 align="center"> 💻 :computer:Tela de Login 💻 :computer:</h1>
-![Banner-animado mp4](https://user-images.githubusercontent.com/100293266/172214028-5e750276-5986-43b7-9992-9a1dcbfabd18.gif)
+<h1 align="center"> :computer:Tela de Login  :computer:</h1>
+
+![Banner-animado mp4](https://user-images.githubusercontent.com/100293266/172214888-ea3ab77f-d78b-4178-9b2e-f2750a4c8f27.gif)
+
 <br>
 <h2 align="center"> :clipboard: Descrição do projeto </h2>
 <p>Projeto desenvolvido com HTML,CSS e JavaScrip. Com este projeto pude praticar novos conhecimentos como: utilização de variáveis no CSS, responsividade e no JavaScript a aplicação mostrar/ocultar senha.<p>
   
-   ![imagem cornometro](https://user-images.githubusercontent.com/100293266/170393940-19fa9d83-eb40-4a0a-808c-99cef2972582.png)
+   ![image](https://user-images.githubusercontent.com/100293266/172214927-e7253fb8-2e25-4788-97b7-07ed25d18487.png)
+
   
  <h2 align = "center" >:hammer: Funcionalidades do projeto</h2>
 
