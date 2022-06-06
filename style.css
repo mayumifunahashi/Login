@@ -5,6 +5,10 @@
     --branco: #FFFFFF
 }
 
+*{
+    font-family: 'Fredoka One', cursive;
+}
+
 body{
     background-color: var(--salmao);
     background-image: url(Imagens/fundo.svg);
@@ -72,14 +76,12 @@ input {
     height: 1.5rem;
     border-radius: 5px;
     border-style: dashed;
-    
 }
 
 #checkbox {
     width: 1.2rem;
     height: 1.2rem;
     margin: 1rem 0.5rem 1rem 0;
-    
 }
 
 inscrever-se nav {
@@ -105,18 +107,17 @@ inscrever-se nav {
 #inscrever-se {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 1.5rem;
     background-color: var(--laranja);
     width: 15rem;
     height: 2rem;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 
 #inscrever-se-link{
   text-decoration: none;
-    color: var(--branco);
-    text-align: center;
+    color: var(--branco); 
 }
 
 #container-continuar {

@@ -1,13 +1,13 @@
-
 function mostrarOcultarSenha() {
-    const senha = document.getElementById('checkbox');
+    var senha = document.getElementById("senha");
 
-    if (senha == 'password') {
-        senha.type ='text';
+    if (senha.type == "password") {
+        senha.type ="text";
     }else {
-        senha.type = 'password';
+        senha.type = "password";
     }
 }
+
 
 
 
